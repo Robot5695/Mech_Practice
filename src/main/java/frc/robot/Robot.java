@@ -67,10 +67,10 @@ private final TalonSRX rearleft;
     double turn= xbox1.getRightX();
   
 
-    frontleft.set(TalonSRXControlMode.PercentOutput, forward-turn);   
-    frontright.set(TalonSRXControlMode.PercentOutput, forward+turn);   
-    rearleft.set(TalonSRXControlMode.PercentOutput, forward-turn);   
-    rearright.set(TalonSRXControlMode.PercentOutput, forward+turn); 
+    frontleft.set(TalonSRXControlMode.PercentOutput, forward+turn);   
+    frontright.set(TalonSRXControlMode.PercentOutput, forward-turn);   
+    rearleft.set(TalonSRXControlMode.PercentOutput, forward+turn);   
+    rearright.set(TalonSRXControlMode.PercentOutput, forward-turn); 
 
   }
 }
